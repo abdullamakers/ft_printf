@@ -6,7 +6,7 @@
 /*   By: abdualsh <abdualsh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 17:30:09 by abdualsh          #+#    #+#             */
-/*   Updated: 2025/11/01 18:02:29 by abdualsh         ###   ########.fr       */
+/*   Updated: 2025/11/15 17:25:50 by abdualsh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,21 +32,21 @@ typedef struct s_flags
 
 //#-------- Mandatory ----------
 
-int	ft_printf(const char *format, ...);		//! The main function — reads the format string and prints all arguments.
-int	print_char(char c);						//! Prints one character (%c).
-int	print_str(char *s);						//! Prints a string (%s).
-int	print_ptr(unsigned long long ptr);		//! Prints a pointer address in hexadecimal with 0x (%p).
-int	print_nbr(int n);						//! Prints a signed integer (%d or %i).
-int	print_unbr(unsigned int n);				//! Prints an unsigned integer (%u).
-int	print_hex(unsigned int n, char format);	//! Prints a number in hexadecimal (%x for lowercase, %X for uppercase).
+int	ft_printf(const char *format, ...);		//@ INCOMPLETE
+int	print_char(char c);						//* GREAT
+int	print_str(char *s);						//* GREAT
+int	print_ptr(unsigned long long ptr);		//* GREAT
+int	print_nbr(int n);						//* GREAT
+int	print_unbr(unsigned int n);				//* GREAT
+int	print_hex(unsigned int n, char format);	//* GREAT
 
 //# -------- Utils ----------
-size_t	ft_strlen(const char *s);	//! Returns the length of a string.
-void	ft_putchar(char c);			//! Prints one character (used internally).
-void	ft_putstr(char *s);			//! Prints a string (used internally).
-char	*ft_itoa(int n);			//! Converts an integer to a string.
-char	*ft_utoa(unsigned int n);	//! Converts an unsigned int to a string.
-char	*ft_itox(unsigned long long n, char format);	//! Converts a number to a hexadecimal string.
+size_t	ft_strlen(const char *s);						//* GREAT
+void	ft_putchar(char c);								//* GREAT
+void	ft_putstr(char *s);								//* GREAT
+char	*ft_itoa(int n);								//* GREAT
+char	*ft_utoa(unsigned int n);						//* GREAT
+char	*ft_itox(unsigned long long n, char format);	//* GREAT
 
 //# -------- Bonus ----------
 int	parse_flags(const char *fmt, int i, t_flags *flags, va_list args);	//! Reads and stores all format flags (-, 0, ., width, etc.).

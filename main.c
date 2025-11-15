@@ -6,7 +6,18 @@
 /*   By: abdualsh <abdualsh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/02 00:33:19 by abdualsh          #+#    #+#             */
-/*   Updated: 2025/11/02 00:33:20 by abdualsh         ###   ########.fr       */
+/*   Updated: 2025/11/15 17:29:05 by abdualsh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "include/ft_printf.h"
+#include <stdio.h>
+
+
+
+int main(void)
+{
+    printf("hello");
+    printf("%s", NULL);
+    
+}

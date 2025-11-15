@@ -6,7 +6,19 @@
 /*   By: abdualsh <abdualsh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 17:30:27 by abdualsh          #+#    #+#             */
-/*   Updated: 2025/11/01 17:30:28 by abdualsh         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:54:15 by abdualsh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
+int	print_str(char *s)
+{
+	if (!s)
+	{
+		ft_putstr("(null)");
+		return (6);
+	}
+	ft_putstr(s);
+	return (ft_strlen(s));
+}

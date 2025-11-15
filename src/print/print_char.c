@@ -6,7 +6,14 @@
 /*   By: abdualsh <abdualsh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/01 17:30:18 by abdualsh          #+#    #+#             */
-/*   Updated: 2025/11/01 17:30:19 by abdualsh         ###   ########.fr       */
+/*   Updated: 2025/11/14 16:50:07 by abdualsh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
+int	print_char(char c)
+{
+	ft_putchar(c);
+	return (1);
+}
