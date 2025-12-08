@@ -6,10 +6,13 @@
 /*   By: abdualsh <abdualsh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/07 15:30:53 by abdualsh          #+#    #+#             */
-/*   Updated: 2025/12/07 15:31:37 by abdualsh         ###   ########.fr       */
+/*   Updated: 2025/12/08 12:44:44 by abdualsh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 # include "ft_printf.h"
 
 int process_c(va_list *args)
+{
+    
+}
